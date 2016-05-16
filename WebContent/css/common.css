@@ -1,0 +1,30 @@
+
+*{margin:0; padding:0; font-size: 12px; color:#333; font-family: "微软雅黑"}
+body,html{height:200%}
+h2{ font-size:14px;}
+h3{ font-size:12px;}
+
+div{white-space:normal;}
+ul,li{ list-style:none; list-style-type:none;}
+table{ border-collapse:collapse;}
+img{ border:none;}
+input{ line-height:120%; outline:none;}
+textarea, input{ border:1px solid #dedede; }
+a{cursor:pointer; text-decoration:none; outline:none; color:#555;}
+.cboth{ clear:both; font-size:0; line-height:0; content:'0'; height:0; overflow:hidden;}
+
+html{ -webkit-text-size-adjust: none; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block;}
+img{ max-width:100%; height:auto; width:auto\9; }
+.video embed, .video object, .video iframe { width:100%; height:auto;}
+
+
+.marginTop20{ margin-top:20px }
+
+#warp{ width: 1000px; margin:50px auto; }
+.content{ position: relative; margin-bottom:30px; padding:50px; border:1px solid #d2d2d2; border-radius:4px;}
+.title{ line-height:30px;}
+.pressButton{ 
+	background:#28B6CE; border:1px solid #28B6CE;  cursor:pointer; display: inline-block;
+	padding:9px 15px; border-radius:4px; color:#fff; 
+}

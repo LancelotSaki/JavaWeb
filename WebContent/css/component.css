@@ -1,0 +1,97 @@
+
+
+/* 表单验证样式 */
+.defaultInput{ 
+	outline:none; border-radius:4px; border:1px solid #ccc;
+	height:35px; width:200px; padding-left:10px; vertical-align:middle;
+}
+input[type="text"]:disabled{
+	background:#eee;
+}
+.SYUI-validateError{ border:1px solid #FF6060; border-radius:4px;}
+.SYUI-validateMsgDiv{ 
+	position:absolute; background:#FF6060; border:1px solid #FF6060; 
+	padding:9px 15px; border-radius:4px; color:#fff;
+}
+
+/* 单选框, 多选框样式 */
+.SYUI-radio, .SYUI-checkbox, .SYUI-select{ position:relative; z-index:9; display:inline-block; vertical-align:top; }
+.SYUI-radio .btn > input[type="radio"],
+.SYUI-checkbox .btn > input[type="checkbox"] { display: none; }
+
+.SYUI-radio .btn, 
+.SYUI-checkbox .btn{
+    position:relative; float:left; display:inline-block; padding:9px 15px; border:1px solid transparent; color:#fff;
+    background:#428bca; margin-left:-1px; text-align:center; white-space:nowrap; vertical-align:middle;
+    cursor:pointer; border-radius:0; border-color:#357ebd; user-select:none;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none;
+}
+.SYUI-radio .btn:first-child,
+.SYUI-checkbox .btn:first-child {
+    margin-left:0;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.SYUI-radio .btn:last-child,
+.SYUI-checkbox .btn:last-child {
+    border-radius:0 4px 4px 0;
+}
+
+.SYUI-radio .btn.active,
+.SYUI-checkbox .btn.active{
+    z-index:2; color:#fff; background:#3276b1; border-color:#285e8e;
+    -webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125); outline:0;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);
+}
+
+/* 下拉框 */
+.SYUI-select{ user-select:none; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; }
+.SYUI-select .title{ position:relative; }
+.SYUI-select .title input{ 
+	display:inline-block; padding:9px 25px 9px 15px; max-width:80px; border-radius:4px; border:1px solid #ccc;
+	background:#fff; cursor:pointer; color:#333; 
+}
+.SYUI-select .title.active input {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125); 
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125)
+}
+.SYUI-select .title input:disabled{
+	background:#fff;
+}
+.SYUI-select .title.off input{
+	background:#eee;
+}
+.SYUI-select .title .arrow {
+    position:absolute; right:13px; top:17px; display:inline-block; width:0; height:0; vertical-align: middle; 
+    border-top:4px solid; border-right:4px solid transparent; border-left:4px solid transparent;
+}
+
+.SYUI-select .menu {
+    position: absolute; top: 100%; left: 0; z-index:9;float: left; overflow-x:hidden; display:none;
+    padding: 5px 0;margin: 2px 0 0; max-width:200px; min-width: 121px; 
+    background-color: #fff; border: 1px solid #ccc; border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px; -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175); background-clip: padding-box;
+}
+.SYUI-select .menu.on { display:block;}
+.SYUI-select .menu > li > a {
+    display: block;padding: 7px 15px;clear: both;font-weight: normal;color: #333; word-break: break-all;
+}
+.SYUI-select .menu > li > a:hover,
+.SYUI-select .menu > li.on > a{ background:#eee; }
+.SYUI-select .menu > li.line {height: 1px;margin: 9px 0;overflow: hidden;background-color: #e5e5e5;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
