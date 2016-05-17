@@ -6,33 +6,36 @@
     <title>我的主页</title>
     <link href="css/div_table.css"  rel="Stylesheet"  type="text/css"   />
 </head>
-<body>
+<body style="background-image:url(); background-repeat:repeat;">
  
  <div style="width:99%; height:565px;">
     <div class="divHeaderTable">
-        <div class="divHeaderRow">
-            <div class="divHeaderColumn">
+         <div class="divHeaderRow">
                 <img alt="Offshore Outsourcing software development company India"
                     title="Offshore Outsourcing software development company India"
-                    src="image/3.jpg" width="100%" height="105" />
-            </div>
+                    src="image/1.jpg" width="100%" height="100%" />
+         </div>
+        <div class="divHeaderRow">
+           
+            
             <div class="divHeaderColumn">
-                 
-            </div>
-            <div class="divHeaderColumn">
-                <div>
-                    <img alt="Gmind" width="10%" height="52" src="image/1.jpg" />
+               <div class="divCenterColumn">
+                    <img alt="Gmind" width="15%" height="52" src="image/2.jpg" />
                     +91-9702989270
-                </div>
-                <div>
-                    <img alt="Gmind" width="10%" height="52"  src="image/2.jpg" />
-                    +91-9924839208
-                </div>
-                <div>
-                </div>
-                <div>
-                </div>
+               </div>                      
             </div>
+            <div class="divHeaderColumn">
+             <div class="divCenterColumn">
+                    <img alt="Gmind" width="15%" height="52"  src="image/3.jpg" />
+                    +91-9924839208
+                    </div>
+             </div>  
+             <div class="divHeaderColumn">
+              <div class="divCenterColumn">
+                    <img alt="Gmind" width="15%" height="52"  src="image/4.jpg" />
+                    +91-9924839209 
+                    </div>
+             </div>  
         </div>
     </div>
     
@@ -185,7 +188,7 @@
       </div>
     </div>
  </div>   
- <div style="text-align:center; background-color:Green;">
+ <div style="text-align:center; background-color:Grey;">
   Contact us to discuss your requirements
  </div>
 </body>

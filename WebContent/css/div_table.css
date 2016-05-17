@@ -22,6 +22,13 @@ body
             width: 33%;
             display:block;
 }
+
+.divCenterColumn
+{
+            float: center;
+            width: 100%;
+            display:block;
+}
 .divTable
 {
             width: 100%;
