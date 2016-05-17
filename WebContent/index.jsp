@@ -3,94 +3,191 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>我的第一个jsp主页</title>
-
-<script src="./js/logincheck.js" language="javascript" ></script>
-<link href="./css/xialakuang.css" rel="stylesheet">
-<link href="./css/huandengpian_1.css" rel="stylesheet">
-<link href="./css/div_location.css" rel="stylesheet">
+    <title>我的主页</title>
+    <link href="css/div_table.css"  rel="Stylesheet"  type="text/css"   />
 </head>
-
-
 <body>
-
-<div id="container" >
-    <ul>
-    <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'" style="height:18px;">网站首页</li>
-    <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">公司新闻
-    <div class="list">
-        <a href="#">我的日志</a><br />
-        <a href="#">我的日志</a><br />
-        <a href="#">我的收藏</a><br />
+ 
+ <div style="width:99%; height:565px;">
+    <div class="divHeaderTable">
+        <div class="divHeaderRow">
+            <div class="divHeaderColumn">
+                <img alt="Offshore Outsourcing software development company India"
+                    title="Offshore Outsourcing software development company India"
+                    src="image/3.jpg" width="100%" height="105" />
+            </div>
+            <div class="divHeaderColumn">
+                 
+            </div>
+            <div class="divHeaderColumn">
+                <div>
+                    <img alt="Gmind" width="10%" height="52" src="image/1.jpg" />
+                    +91-9702989270
+                </div>
+                <div>
+                    <img alt="Gmind" width="10%" height="52"  src="image/2.jpg" />
+                    +91-9924839208
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
     </div>
-    </li>
-    <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">产品列表   
-    <div class="list">
-        <a href="#">我的相册</a><br />
-        <a href="#">我的收藏</a><br />
+    
+    <div id="menu" class="divHeaderTable" >
+        <ul style="list-style-type:none;" >
+            <li style="float:left"><a href="javascript:void(0);" >主页</a>   </li>
+            <li style="float:left"><a href="javascript:void(0);" >番剧</a>   </li>
+            <li style="float:left"><a href="javascript:void(0);" >电视剧</a>   </li>
+            <li style="float:left"><a href="javascript:void(0);" >布袋戏</a>  </li>
+            <li style="float:left"><a href="javascript:void(0);" >游戏直播</a>  </li>
+            <li style="float:left"><a href="javascript:void(0);" >合作伙伴</a>  </li>
+            <li><a href="javascript:void(0);" title="Contact Us">联系我们</a>  </li>
+        </ul>    
     </div>
-    </li>
-    <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">品牌故事   
-    <div class="list">
-        <a href="#">我的日志</a><br />
-        <a href="#">我的相册</a><br />
-        <a href="#">我的收藏</a><br />
+    
+    <div id="divHeader" class="divHeaderTable">
+        <h4>业务类型</h4>
     </div>
-    </li>
-       <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">关于我们   
-    <div class="list">
-        <a href="#">我的日志</a><br />
-        <a href="#">我的相册</a><br />
-        <a href="#">我的收藏</a><br />
+    
+    <div id="content" class="divTable">
+       <div class="divRow">
+        <div class="divColumn">
+            <div>
+                <label id="lblSolutation" > Solutation</label>
+            </div>
+            <div>
+                <input type="text" id="txtSolutation" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="lblFname" > First Name</label>
+            </div>
+            <div>
+                <input type="text" id="Text1" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="lblMname" > Middle Name</label>
+            </div>
+            <div>
+                <input type="text" id="Text2" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="lblLname" > Last Name</label>
+            </div>
+            <div>
+                <input type="text" id="Text3" />
+            </div>
+        </div>
+      </div>
+      
+       <div class="divRow">
+       <div class="divColumn">
+             <div>
+                <label id="Label10" > Login Name</label>
+            </div>
+            <div>
+                <input type="text" id="Text13" />
+            </div>
+        </div>
+        <div class="divColumn">
+             <div>
+                <label id="Label9" > E-mail</label>
+            </div>
+            <div>
+                <input type="text" id="Text12" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="Label7" > Password</label>
+            </div>
+            <div>
+                <input type="password" id="Text10" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="Label8" > Confirm Password</label>
+            </div>
+            <div>
+                <input type="password" id="Text11" />
+            </div>
+        </div>
+      </div>
+      
+       <div class="divRow">
+        <div class="divColumn" style="width:48%;">
+            <div>
+                <label id="Label1" > Address1</label>
+            </div>
+            <div>
+                <textarea id="Text4" style="width:80%;" ></textarea>
+            </div>
+        </div>
+        <div class="divColumn" style="width:48%;">
+            <div>
+                <label id="Label3" > Address2</label>
+            </div>
+            <div>
+                <textarea id="Text6" style="width:80%;"> </textarea>
+            </div>
+        </div>
+      </div>
+      
+       <div class="divRow">
+        <div class="divColumn">
+            <div>
+                <label id="Label2" > State</label>
+            </div>
+            <div>
+                <input type="text" id="Text5" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="Label4" > City</label>
+            </div>
+            <div>
+                <input type="text" id="Text7" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="Label5" > Country</label>
+            </div>
+            <div>
+                <input type="text" id="Text8" />
+            </div>
+        </div>
+        <div class="divColumn">
+            <div>
+                <label id="Label6" > Pin Code</label>
+            </div>
+            <div>
+                <input type="text" id="Text9" />
+            </div>
+        </div>
+      </div>
+      
+      <br />
+      <div class="divRow">
+         <input type="submit" value="Submit" onclick="javascript:void(0);" />
+          or   
+        <a  href="javascript:void(0)">Cancel </a> 
+      </div>
     </div>
-    </li>
-       <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">美容顾问   
-    <div class="list">
-        <a href="#">我的日志</a><br />
-        <a href="#">我的相册</a><br />
-        <a href="#">我的收藏</a><br />
-    </div>
-    </li>
-       <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">市场营销   
-    <div class="list">
-        <a href="#">我的收藏</a><br />
-        <a href="#">我的日志</a><br />
-        <a href="#">我的相册</a><br />
-        <a href="#">我的收藏</a><br />
-    </div>
-    </li>
-       <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">加盟我们   
-    <div class="list">
-        <a href="#">我的首页</a><br />
-        <a href="#">我的日志</a><br />
-        <a href="#">我的相册</a><br />
-        <a href="#">我的收藏</a><br />
-
-    </div>
-    </li>
-       <li class="menu2" onMouseOver="this.className='menu1'" onMouseOut="this.className='menu2'">客服中心   
-    <div class="list">
-        <a href="#">我的日志</a><br />
-        <a href="#">我的相册</a><br />
-        <a href="#">我的收藏</a><br />
-    </div>
-    </li>
-    </ul>
-</div>
-
-<div id="content" >
-	<dl><dt><a  href="#a" title="">1</a>
-            <a  href="#b" title="">2</a>
-            <a  href="#c" title="">3</a>
-        </dt>
-    <dd><img src="http://www.newxing.com/img/450/1.jpg" width="240" height="170"alt="" id="a" />
-        <img src="http://www.newxing.com/img/450/2.jpg" width="240" height="170"alt="" id="b" />
-        <img src="http://www.newxing.com/img/450/3.jpg" width="240" height="170"alt="" id="c" />
-    </dd>
-  </dl>
-  </div>	
-  
+ </div>   
+ <div style="text-align:center; background-color:Green;">
+  Contact us to discuss your requirements
+ </div>
 </body>
 
 
