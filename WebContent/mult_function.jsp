@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>我的第一个jsp主页</title>
+<title>多功能界面整合</title>
 
 <link rel="shortcut icon" href="/favicon.ico">
 <link href="./css/common.css" rel="stylesheet">

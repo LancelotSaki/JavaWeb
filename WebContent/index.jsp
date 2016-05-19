@@ -11,44 +11,81 @@
  <div style="width:99%; height:565px;">
     <div class="divHeaderTable">
          <div class="divHeaderRow">
-                <img alt="Offshore Outsourcing software development company India"
+                 <a href="main_function.jsp"><img alt="Offshore Outsourcing software development company India"
                     title="Offshore Outsourcing software development company India"
-                    src="image/1.jpg" width="100%" height="100%" />
+                    src="image/1.jpg" width="100%" height="100%" /> </a>
          </div>
         <div class="divHeaderRow">
            
             
             <div class="divHeaderColumn">
                <div class="divCenterColumn">
-                    <img alt="Gmind" width="15%" height="52" src="image/2.jpg" />
-                    +91-9702989270
+                    <a href="main_function.jsp"><img alt="Gmind" width="33%" height="100px" src="image/2.jpg" /></a>
+                    div+css表格
                </div>                      
             </div>
             <div class="divHeaderColumn">
              <div class="divCenterColumn">
-                    <img alt="Gmind" width="15%" height="52"  src="image/3.jpg" />
-                    +91-9924839208
+                    <a href="mult_function.jsp"><img alt="Gmind" width="33%" height="100px"  src="image/3.jpg" /></a>
+                                                             多功能整合
                     </div>
              </div>  
              <div class="divHeaderColumn">
               <div class="divCenterColumn">
-                    <img alt="Gmind" width="15%" height="52"  src="image/4.jpg" />
-                    +91-9924839209 
+                   <a  href="huandengpian.jsp"> <img alt="Gmind" width="33%" height="100px"  src="image/4.jpg" /> </a>
+                                                                 幻灯片功能
                     </div>
              </div>  
         </div>
     </div>
     
-    <div id="menu" class="divHeaderTable" >
+    <div id="menu" class="divPushLink" >
         <ul style="list-style-type:none;" >
-            <li style="float:left"><a href="javascript:void(0);" >主页</a>   </li>
-            <li style="float:left"><a href="javascript:void(0);" >番剧</a>   </li>
-            <li style="float:left"><a href="javascript:void(0);" >电视剧</a>   </li>
-            <li style="float:left"><a href="javascript:void(0);" >布袋戏</a>  </li>
-            <li style="float:left"><a href="javascript:void(0);" >游戏直播</a>  </li>
-            <li style="float:left"><a href="javascript:void(0);" >合作伙伴</a>  </li>
-            <li><a href="javascript:void(0);" title="Contact Us">联系我们</a>  </li>
+            <li style="float:left; width:5%"><a href="ul_and_ol.jsp" >链接1</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接2</a>   </li>
+            <li style="float:left; width:5%">  &nbsp; </li>
+            <li style="float:left; width:5%">  &nbsp; </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接5</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接6</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接7</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接8</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接9</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接10</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接11</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接12</a>   </li>
+            <li style="float:left; width:5%">&nbsp;   </li>
+            <li style="float:left; width:5%">&nbsp;   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接15</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接16</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接17</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接18</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接19</a>   </li>
+             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接20</a>   </li>
         </ul>    
+        
+         <ol style="list-style-type:none;" start="50">
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接1</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接2</a>   </li>
+            <li style="float:left; width:5%"> &nbsp;  </li>
+            <li style="float:left; width:5%"> &nbsp;  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接5</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接6</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接7</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接8</a>  </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接9</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接10</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接11</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接12</a>   </li>
+            <li style="float:left; width:5%">&nbsp;   </li>
+            <li style="float:left; width:5%">&nbsp;   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接15</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接16</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接17</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接18</a>   </li>
+            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接19</a>   </li>
+             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接20</a>   </li>
+        </ol>  
+        
     </div>
     
     <div id="divHeader" class="divHeaderTable">
@@ -59,7 +96,7 @@
        <div class="divRow">
         <div class="divColumn">
             <div>
-                <label id="lblSolutation" > Solutation</label>
+                <label id="lblSolutation" > 1row1Column</label>
             </div>
             <div>
                 <input type="text" id="txtSolutation" />
@@ -67,7 +104,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="lblFname" > First Name</label>
+                <label id="lblFname" > 1row2Column</label>
             </div>
             <div>
                 <input type="text" id="Text1" />
@@ -75,7 +112,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="lblMname" > Middle Name</label>
+                <label id="lblMname" > 1row3Column</label>
             </div>
             <div>
                 <input type="text" id="Text2" />
@@ -83,7 +120,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="lblLname" > Last Name</label>
+                <label id="lblLname" >1row4Column</label>
             </div>
             <div>
                 <input type="text" id="Text3" />
@@ -94,7 +131,7 @@
        <div class="divRow">
        <div class="divColumn">
              <div>
-                <label id="Label10" > Login Name</label>
+                <label id="Label10" > 2row1Column</label>
             </div>
             <div>
                 <input type="text" id="Text13" />
@@ -102,7 +139,7 @@
         </div>
         <div class="divColumn">
              <div>
-                <label id="Label9" > E-mail</label>
+                <label id="Label9" > 2row2Column</label>
             </div>
             <div>
                 <input type="text" id="Text12" />
@@ -110,7 +147,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="Label7" > Password</label>
+                <label id="Label7" > 2row3Column</label>
             </div>
             <div>
                 <input type="password" id="Text10" />
@@ -118,7 +155,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="Label8" > Confirm Password</label>
+                <label id="Label8" > 2row4Column</label>
             </div>
             <div>
                 <input type="password" id="Text11" />
@@ -129,7 +166,7 @@
        <div class="divRow">
         <div class="divColumn" style="width:48%;">
             <div>
-                <label id="Label1" > Address1</label>
+                <label id="Label1" > 3row1Column</label>
             </div>
             <div>
                 <textarea id="Text4" style="width:80%;" ></textarea>
@@ -137,7 +174,7 @@
         </div>
         <div class="divColumn" style="width:48%;">
             <div>
-                <label id="Label3" > Address2</label>
+                <label id="Label3" > 3row2Column</label>
             </div>
             <div>
                 <textarea id="Text6" style="width:80%;"> </textarea>
@@ -148,7 +185,7 @@
        <div class="divRow">
         <div class="divColumn">
             <div>
-                <label id="Label2" > State</label>
+                <label id="Label2" > 4row1Column</label>
             </div>
             <div>
                 <input type="text" id="Text5" />
@@ -156,7 +193,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="Label4" > City</label>
+                <label id="Label4" > 4row2Column</label>
             </div>
             <div>
                 <input type="text" id="Text7" />
@@ -164,7 +201,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="Label5" > Country</label>
+                <label id="Label5" >4row3Column</label>
             </div>
             <div>
                 <input type="text" id="Text8" />
@@ -172,7 +209,7 @@
         </div>
         <div class="divColumn">
             <div>
-                <label id="Label6" > Pin Code</label>
+                <label id="Label6" >4row4Column</label>
             </div>
             <div>
                 <input type="text" id="Text9" />
