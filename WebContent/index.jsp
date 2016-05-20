@@ -42,7 +42,7 @@
     <div id="menu" class="divPushLink" >
         <ul style="list-style-type:none;" >
             <li style="float:left; width:5%"><a href="ul_and_ol.jsp" >链接1</a>   </li>
-            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接2</a>   </li>
+            <li style="float:left; width:5%"><a href="new_ul_li.jsp" >链接2</a>   </li>
             <li style="float:left; width:5%">  &nbsp; </li>
             <li style="float:left; width:5%">  &nbsp; </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接5</a>  </li>
