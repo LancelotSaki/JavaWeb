@@ -38,8 +38,8 @@ $(document).ready(function() {
     height: 385,
     playlist: [
         {
-        	 0: {src: "video/loli_dance.mp4", type: "video/mp4"},
-             1: {src: "video/loli_dance.webm", type: "video/webm"}
+        	 0: {src: "videoplayer/media/intro.mp4", type: "video/mp4"},
+             1: {src: "videoplayer/media/intro.webm", type: "video/webm"}
         	/*
         0: {src: "videoplayer/media/intro.ogv", type: "video/ogg"},
         1: {src: "videoplayer/media/intro.mp4", type: "video/mp4"},
@@ -123,14 +123,14 @@ $(document).ready(function() {
             <li style="float:left; width:5%">&nbsp;   </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接15</a>   </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接16</a>   </li>
-            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接17</a>   </li>
-            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接18</a>   </li>
-            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接19</a>   </li>
-             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接20</a>   </li>
+            <li style="float:left; width:5%"><a href="tab4.jsp" >链接17</a>   </li>
+            <li style="float:left; width:5%"><a href="tab3.jsp" >链接18</a>   </li>
+            <li style="float:left; width:5%"><a href="tab2.jsp" >链接19</a>   </li>
+             <li style="float:left; width:5%"><a href="tab.jsp" >链接20</a>   </li>
         </ol>  
         
     </div>
-		<div style="text-align: center;">
+		<div  class="divCenterColumn">
 			<div id="player_a" class="projekktor" >
 			</div>
 		</div>
@@ -138,7 +138,7 @@ $(document).ready(function() {
  
 
  
- <div style="text-align:center; background-color:Grey;">
+ <div style="text-align:center; background-color:Grey;" >
   Contact us to discuss your requirements
  </div>
 </body>
