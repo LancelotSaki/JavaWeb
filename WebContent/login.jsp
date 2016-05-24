@@ -57,8 +57,8 @@
 				<div class="clearB"></div>
 			</div>
 			<form class="login_items" id="login_items">
-				<label class="input_val"><input class="input" name="EMAIL" id="login_email" autocomplete="off" /><span>邮箱</span><img src="style/images/login_mail.png" /></label>
-				<label class="input_val"><input class="input" name="PASSWORD" type="password" id="login_password" autocomplete="off" /><span>密码</span><img src="style/images/login_password.png" /></label>
+				<label class="input_val"><input class="input" name="EMAIL" id="login_email" autocomplete="off" /><span>邮箱/手机号码/用户ID</span><img src="login_style/images/login_mail.png" /></label>
+				<label class="input_val"><input class="input" name="PASSWORD" type="password" id="login_password" autocomplete="off" /><span>密码</span><img src="login_style/images/login_password.png" /></label>
 				<div class="login_msg">
 					<p class="login_error">
 						<span></span>
@@ -103,7 +103,7 @@
 			</div>
 		</div>
 
-		<p class="contactUs">联系我们：service@mikecrm.com</p>
+		<p class="contactUs">联系我们：service@qq.com</p>
 	</div>
 </div>
 
