@@ -5,12 +5,7 @@
 <head>
     <title>我的主页</title>
     <link href="css/div_table.css"  rel="Stylesheet"  type="text/css"   />
-    <!--  
-    <link href="./videojs-player/videojs/video-js.css" rel="stylesheet">
-    <script src="./videojs-player/videojs/video.js"></script>
-    -->
-    <link href="http://lovejiani.cdn.duapp.com/videojs/video-js.css" rel="stylesheet">
-    <script src="http://lovejiani.cdn.duapp.com/videojs/video.js"></script>
+      
  <script language="javascript" >
 window.onload = function(){
 	var imagelist = [];   //页面加载时随机生成背景图片
@@ -24,6 +19,7 @@ window.onload = function(){
 	var currentImage=imagelist[index]; 
 	document.getElementById("background").style.backgroundImage="url("+currentImage+")"; 
 }
+
 
 	</script>
 </head>
@@ -105,14 +101,8 @@ window.onload = function(){
         
     </div>
 		<div style="text-align: center;">
-		<!-- 
-			<video id="my_video_1" controls preload="auto" width="50%"
-				height="480px" poster="./videojs-player/videojs/video-js.png" data-setup="{}"> <source
-				src="./vedio/loli_dance.mp4" type='video/mp4'> </video>
-				 -->
-			<video id="my_video_1" controls preload="auto" width="640"
-				height="480" poster="my_video_poster.png" data-setup="{}"> <source
-				src="./video/loli_dance.mp4" type='video/mp4'> </video>
+		
+			
 		</div>
 	</div>   
  

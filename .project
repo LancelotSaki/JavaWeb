@@ -37,22 +37,22 @@
 		<link>
 			<name>WebContent/image/1.jpg</name>
 			<type>1</type>
-			<location>F:/Google download/QQ图片20160510010320.jpg</location>
+			<locationURI>PARENT_LOC/1.jpg</locationURI>
 		</link>
 		<link>
 			<name>WebContent/image/2.jpg</name>
 			<type>1</type>
-			<location>F:/Google download/QQ图片20160510010327.jpg</location>
+			<locationURI>PARENT_LOC/2.jpg</locationURI>
 		</link>
 		<link>
 			<name>WebContent/image/3.jpg</name>
 			<type>1</type>
-			<location>F:/Google download/美图/76f6a551f81986180bb82c254aed2e7389d4e686.jpg</location>
+			<locationURI>PARENT_LOC/3.jpg</locationURI>
 		</link>
 		<link>
 			<name>WebContent/image/4.jpg</name>
 			<type>1</type>
-			<location>F:/Google download/美图/QQ图片20160320233555.jpg</location>
+			<locationURI>PARENT_LOC/4.jpg</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
