@@ -17,12 +17,8 @@
  
 window.onload = function(){
 	var imagelist = [];   //页面加载时随机生成背景图片
-	imagelist[0] = "./image/1.jpg";
-	imagelist[1] = "./image/2.jpg";
-	imagelist[2] = "./image/3.jpg";
-	imagelist[3] = "./image/4.jpg";
-	imagelist[4] = "./image/5.png";
-	imagelist[5] = "./image/10.jpg";
+	imagelist[0] = "./image/backgroup.jpg";
+	imagelist[1] = "./image/backgroup_a.jpg";
 	var index =parseInt(Math.random()*(imagelist.length-1)); 
 	var currentImage=imagelist[index]; 
 	document.getElementById("background").style.backgroundImage="url("+currentImage+")"; 
@@ -53,7 +49,7 @@ $(document).ready(function() {
 
 	</script>
 </head>
-<body id="background_gai" style="background-size:100% 130%; ">
+<body id="background" style="background-size:100% 130%; ">
                                               <!-- background-size:100% 100%; 图片按百分比拉伸,高度一般不是百分百 -->
  <div style="width:99%; height:1000px;">
     <div class="divHeaderTable">
@@ -63,19 +59,19 @@ $(document).ready(function() {
             
             <div class="divHeaderColumn">
                <div class="divCenterColumn">
-                    <a href="main_function.jsp"><img alt="Gmind" width="33%" height="100px" src="image/2.jpg" /></a>
+                    <a href="main_function.jsp"><img alt="Gmind" width="33%" height="100px" src="image/a.jpg" /></a>
                     div+css表格
                </div>                      
             </div>
             <div class="divHeaderColumn">
              <div class="divCenterColumn">
-                    <a href="mult_function.jsp"><img alt="Gmind" width="33%" height="100px"  src="image/3.jpg" /></a>
+                    <a href="mult_function.jsp"><img alt="Gmind" width="33%" height="100px"  src="image/b.jpg" /></a>
                                                              多功能整合
                     </div>
              </div>  
              <div class="divHeaderColumn">
               <div class="divCenterColumn">
-                   <a  href="huandengpian.jsp"> <img alt="Gmind" width="33%" height="100px"  src="image/4.jpg" /> </a>
+                   <a  href="huandengpian.jsp"> <img alt="Gmind" width="33%" height="100px"  src="image/c.jpg" /> </a>
                                                                  幻灯片功能
                     </div>
              </div>  
@@ -130,6 +126,9 @@ $(document).ready(function() {
         </ol>  
         
     </div>
+      <div class="divColumn">
+       &nbsp;
+      </div>
 		<div  class="divCenterColumn">
 			<div id="player_a" class="projekktor" >
 			</div>
