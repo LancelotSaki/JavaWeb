@@ -1,0 +1,32 @@
+
+<!--
+<Context>
+	<Resource 
+			name="jdbc/insiis" 
+			type="javax.sql.DataSource" 
+			password="wzcbkf119"
+			driverClassName="oracle.jdbc.driver.OracleDriver" 
+			maxIdle="2" 
+			maxWait="5000" 
+			validationQuery="select 1 from dual" 
+			username="wzcbkf" 
+			url="jdbc:oracle:thin:@172.16.10.119:1521:orcl" 
+			maxActive="10"/>
+</Context>
+-->
+
+ <!-- -->
+<Context>
+	<Resource 
+			name="jdbc/insiis" 
+			type="javax.sql.DataSource" 
+			password="wzcbkf208"
+			driverClassName="oracle.jdbc.driver.OracleDriver" 
+			maxIdle="2" 
+			maxWait="5000" 
+			validationQuery="select 1 from dual" 
+			username="wzcbkf" 
+			url="jdbc:oracle:thin:@16.168.208.208:1521:testwzsi" 
+			maxActive="10"/>
+</Context>
+
