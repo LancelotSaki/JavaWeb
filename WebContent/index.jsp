@@ -99,15 +99,15 @@ $(document).ready(function() {
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接17</a>   </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接18</a>   </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接19</a>   </li>
-             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接20</a>   </li>
+             <li style="float:left; width:5%"><a href="pages/submit/submitbutton/SubmitButton.jsp" >链接20</a>   </li>
         </ul>    
         
          <ol style="list-style-type:none;" start="50">
             <li style="float:left; width:5%"><a href="textEdit.jsp" >链接1</a>   </li>
-            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接2</a>   </li>
+            <li style="float:left; width:5%"><a href="pages/functionmenu/togglemenu/togglemenu.jsp" >链接2</a>   </li>
             <li style="float:left; width:5%"> &nbsp;  </li>
             <li style="float:left; width:5%"> &nbsp;  </li>
-            <li style="float:left; width:5%"><a href="javascript:void(0);" >链接5</a>  </li>
+            <li style="float:left; width:5%"><a href="pages/loginui/loginmenu/LoginMenu.jsp" >链接5</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接6</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接7</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接8</a>  </li>
