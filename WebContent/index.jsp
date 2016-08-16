@@ -81,12 +81,12 @@ $(document).ready(function() {
     <div id="menu" class="divPushLink" >
         <ul style="list-style-type:none;" >
             <li style="float:left; width:5%"><a href="login.jsp" >链接1</a>   </li>
-            <li style="float:left; width:5%"><a href="new_ul_li.jsp" >链接2</a>   </li>
+            <li style="float:left; width:5%"><a href="new_ul_li.jsp" >table框</a>   </li>
             <li style="float:left; width:5%">  &nbsp; </li>
             <li style="float:left; width:5%">  &nbsp; </li>
             <li style="float:left; width:5%"><a href="main_function.jsp" >链接5</a>  </li>
             <li style="float:left; width:5%"><a href="div_set_table.jsp" >链接6</a>  </li>
-            <li style="float:left; width:5%"><a href="ul_and_ol.jsp" >链接7</a>  </li>
+            <li style="float:left; width:5%"><a href="ul_and_ol.jsp" >ul框</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接8</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接9</a>   </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接10</a>   </li>
@@ -103,11 +103,11 @@ $(document).ready(function() {
         </ul>    
         
          <ol style="list-style-type:none;" start="50">
-            <li style="float:left; width:5%"><a href="textEdit.jsp" >链接1</a>   </li>
-            <li style="float:left; width:5%"><a href="pages/functionmenu/togglemenu/togglemenu.jsp" >链接2</a>   </li>
+            <li style="float:left; width:5%"><a href="textEdit.jsp" >文本框</a>   </li>
+            <li style="float:left; width:5%"><a href="pages/functionmenu/togglemenu/togglemenu.jsp" >侧边栏</a>   </li>
             <li style="float:left; width:5%"> &nbsp;  </li>
             <li style="float:left; width:5%"> &nbsp;  </li>
-            <li style="float:left; width:5%"><a href="pages/loginui/loginmenu/LoginMenu.jsp" >链接5</a>  </li>
+            <li style="float:left; width:5%"><a href="pages/loginui/loginmenu/LoginMenu.jsp" >登录</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接6</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接7</a>  </li>
             <li style="float:left; width:5%"><a href="javascript:void(0);" >链接8</a>  </li>
